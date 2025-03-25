@@ -1,0 +1,71 @@
+.student-list-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fc;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.student-list-main {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.student-list-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3949ab;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #5e35b1;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.student-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: #3949ab;
+  color: white;
+  font-size: 18px;
+}
+
+.student-table td {
+  font-size: 16px;
+  color: #333;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f3f5fc;
+}
+
+.view-details {
+  color: #5e35b1;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.view-details:hover {
+  color: #3949ab;
+  text-decoration: underline;
+}

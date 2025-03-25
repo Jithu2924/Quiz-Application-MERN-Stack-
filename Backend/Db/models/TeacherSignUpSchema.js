@@ -1,0 +1,12 @@
+const { Schema, model } = require('mongoose');
+
+const signUpSchema = Schema({
+  fname: { type: String, require: true },
+  lname: { type: String, require: true },
+  email: { type: String, require: true },
+  password: { type: String, require: true },
+  instituteCode: { type: String, require: true },
+});
+const UserSignUp = model('TeacherSignUp', signUpSchema);
+
+module.exports = UserSignUp;

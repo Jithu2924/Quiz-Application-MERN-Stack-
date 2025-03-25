@@ -1,0 +1,83 @@
+.category {
+  background-image: url('/categorybg.png');
+  background-size: cover;
+  height: calc(100vh - 201px);
+  padding-top: 130px;
+}
+
+.outline {
+  text-align: center;
+  padding: 30px;
+  margin: 0px auto;
+
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  animation: fadeIn 0.5s ease;
+}
+
+.category-h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  min-width: 140px;
+  max-width: 160px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+
+.biologycard {
+  background: #6aa84f;
+}
+
+.mathscard {
+  background: #3c78d8;
+}
+
+.physicscard {
+  background: #674ea7;
+}
+
+.chemistrycard {
+  background: #e06666;
+}
+
+.gkcard {
+  background: #f1c232;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

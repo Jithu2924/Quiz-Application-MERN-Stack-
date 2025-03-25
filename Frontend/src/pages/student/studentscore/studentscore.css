@@ -1,0 +1,53 @@
+.scorePage-body {
+  background-image: url('/score.JPG');
+  background-size: cover;
+  padding-top: 80px;
+  height: calc(100vh - 151px);
+}
+
+.scorePage-container {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.scorePage-details {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.scorePage-details strong {
+  color: #007bff;
+}
+
+.scorePage-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.scorePage-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scorePage-buttons button:hover {
+  background: #0056b3;
+}

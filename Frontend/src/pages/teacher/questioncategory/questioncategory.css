@@ -1,0 +1,115 @@
+.category-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f5fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.category-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3949ab;
+  margin-bottom: 20px;
+}
+
+.add-category {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-category input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-category button {
+  background-color: #5e35b1;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-category button:hover {
+  background-color: #3949ab;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.category-list {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(110, 103, 103, 0.771);
+  font-family: 'Poppins', sans-serif;
+}
+
+.category-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-list li {
+  background: #f9fafb;
+  padding: 15px 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.category-list li:hover {
+  transform: translateY(-2px);
+  background: #e3e7ef;
+}
+
+.category-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0080ff;
+  transition: all 0.3s ease-in-out;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.category-link:hover {
+  color: #01a2a0;
+}
+
+.category-list button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.category-list button:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
